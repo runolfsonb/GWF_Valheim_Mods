@@ -1,0 +1,14 @@
+{
+    "name": "RGoldRubyRing",
+    "clone": true,
+    "clonePrefabName": "GoldRubyRing",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "Bronze:1:0:False",
+		"Ruby:1:0:False",
+		"RunestoneMagic:2:0:False"
+    ]
+}

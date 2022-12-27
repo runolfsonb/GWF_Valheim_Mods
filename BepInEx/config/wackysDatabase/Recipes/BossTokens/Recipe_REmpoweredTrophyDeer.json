@@ -1,0 +1,14 @@
+{
+    "name": "REmpoweredTrophyDeer",
+    "clone": true,
+    "clonePrefabName": "EmpoweredTrophyDeer",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "TrophyDeer:4:0:False",
+        "EssenceLegendary:5:0:False",
+		"ShardLegendary:10:0:False"
+    ]
+}

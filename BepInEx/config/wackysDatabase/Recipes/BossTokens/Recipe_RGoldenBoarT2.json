@@ -1,0 +1,15 @@
+{
+    "name": "RGoldenBoarT2",
+    "clone": true,
+    "clonePrefabName": "GoldenBoarT2",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "GoldenBoarT2Drop:10:0:False",
+		"ReagentEpic:5:0:False",		
+        "EssenceLegendary:1:0:False",
+		"ShardLegendary:1:0:False"
+    ]
+}

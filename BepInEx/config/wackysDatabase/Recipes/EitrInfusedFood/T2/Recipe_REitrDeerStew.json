@@ -1,0 +1,13 @@
+{
+    "name": "REitrDeerStew",
+    "clone": true,
+    "clonePrefabName": "EitrDeerStew",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "ReagentEpic:3:1:True",
+        "DeerStew:1:1:True"
+    ]
+}

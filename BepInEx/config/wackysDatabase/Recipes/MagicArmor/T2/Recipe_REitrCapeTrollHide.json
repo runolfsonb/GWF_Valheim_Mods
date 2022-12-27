@@ -1,0 +1,14 @@
+{
+    "name": "REitrCapeTrollHide",
+    "clone": true,
+    "clonePrefabName": "EitrCapeTrollHide",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "ReagentEpic:5:5:True",
+		"DustLegendary:1:1:True",
+		"CapeTrollHide:1:0:True"
+    ]
+}

@@ -1,0 +1,420 @@
+- name: army_eikthyr
+  duration: 90
+  biome: Meadows, BlackForest
+  notRequiredGlobalKeys: defeated_eikthyr
+  startMessage: $event_eikthyrarmy_start
+  endMessage: $event_eikthyrarmy_end
+  forceMusic: CombatEventL1
+  spawns:
+  - prefab: RRRM_NeckEV
+    maxSpawned: 6
+    spawnInterval: 20
+    minAltitude: 0
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: RRRM_BoarEV
+    maxSpawned: 6
+    spawnInterval: 20
+    minAltitude: 0
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+- name: T1EliteRush
+  duration: 300
+  biome: BlackForest, DarkBlackForest
+  notRequiredGlobalKeys: defeated_eikthyr
+  startMessage: They have found you!
+  endMessage: Is that all?
+  forceMusic: CombatEventL1
+  spawns:
+  - prefab: RRRM_NeckEVCrazed
+    maxSpawned: 1
+    spawnInterval: 60
+    minAltitude: 0
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: RRRM_BoarEVCrazed
+    maxSpawned: 1
+    spawnInterval: 60
+    minAltitude: 0
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: RRRM_GreylingEVCrazed
+    maxSpawned: 1
+    spawnInterval: 60
+    minAltitude: 0
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+- name: army_goblin
+  duration: 120
+  biome: Meadows, BlackForest, Plains
+  requiredGlobalKeys: defeated_dragon
+  notRequiredGlobalKeys: defeated_goblinking
+  startMessage: $event_goblinarmy_start
+  endMessage: $event_goblinarmy_end
+  forceMusic: CombatEventL4
+  spawns:
+  - prefab: Goblin
+    spawnChance: 58.2
+    maxSpawned: 8
+    spawnInterval: 10
+    minAltitude: 0
+    spawnDistance: 10
+    groupSizeMax: 4
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: GoblinBrute
+    spawnChance: 47
+    maxSpawned: 2
+    spawnInterval: 20
+    minAltitude: 0
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: GoblinShaman
+    spawnChance: 47
+    maxSpawned: 1
+    spawnInterval: 20
+    minAltitude: 0
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+- name: army_theelder
+  duration: 120
+  biome: Meadows, Swamp, BlackForest, Plains
+  requiredGlobalKeys: defeated_eikthyr
+  notRequiredGlobalKeys: defeated_gdking
+  startMessage: $event_gdkingarmy_start
+  endMessage: $event_gdkingarmy_end
+  forceMusic: CombatEventL2
+  spawns:
+  - prefab: Greydwarf
+    maxSpawned: 6
+    spawnInterval: 5
+    minAltitude: 0
+    groupSizeMax: 3
+    groupRadius: 3
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Greyling
+    maxSpawned: 4
+    spawnInterval: 5
+    minAltitude: 0
+    groupSizeMax: 3
+    groupRadius: 3
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Greydwarf_Shaman
+    maxSpawned: 1
+    spawnInterval: 5
+    minAltitude: 0
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Greydwarf_Elite
+    maxSpawned: 1
+    spawnInterval: 5
+    minAltitude: 0
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+- name: wolves
+  duration: 120
+  nearBaseOnly: false
+  biome: Mountain, Plains
+  requiredGlobalKeys: defeated_bonemass
+  startMessage: $event_wolves_start
+  endMessage: $event_wolves_end
+  forceMusic: CombatEventL3
+  spawns:
+  - prefab: Wolf
+    biome: Mountain, Plains
+    maxSpawned: 6
+    spawnInterval: 2
+    minAltitude: 0
+    maxAltitude: 2000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+  pauseIfNoPlayerInArea: false
+- name: skeletons
+  duration: 120
+  biome: Meadows, Swamp, Mountain, BlackForest, Plains, Mistlands
+  requiredGlobalKeys: defeated_bonemass
+  startMessage: $event_skeletons_start
+  endMessage: $event_skeletons_end
+  forceMusic: CombatEventL3
+  spawns:
+  - prefab: Skeleton
+    maxSpawned: 20
+    spawnInterval: 10
+    minAltitude: -1
+    maxAltitude: 2000
+    spawnDistance: 10
+    groupSizeMin: 4
+    groupSizeMax: 6
+    groupRadius: 4
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Skeleton_Poison
+    spawnChance: 54
+    maxSpawned: 1
+    spawnInterval: 15
+    minAltitude: -1
+    maxAltitude: 2000
+    spawnDistance: 10
+    groupRadius: 4
+    huntPlayer: true
+    groundOffset: 0
+- name: army_bonemass
+  duration: 150
+  biome: Meadows, Swamp, Mountain, BlackForest, Plains
+  requiredGlobalKeys: defeated_gdking
+  notRequiredGlobalKeys: defeated_bonemass
+  startMessage: $event_bonemassarmy_start
+  endMessage: $event_bonemassarmy_end
+  forceMusic: CombatEventL3
+  forceEnvironment: SwampRain
+  spawns:
+  - prefab: Draugr
+    maxSpawned: 3
+    spawnInterval: 5
+    minAltitude: -1
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Skeleton
+    maxSpawned: 6
+    spawnInterval: 5
+    minAltitude: -1
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+- name: army_moder
+  duration: 150
+  biome: Meadows, Swamp, Mountain, BlackForest, Plains
+  requiredGlobalKeys: defeated_bonemass
+  notRequiredGlobalKeys: defeated_dragon
+  startMessage: $event_moderarmy_start
+  endMessage: $event_moderarmy_end
+  forceMusic: CombatEventL4
+  forceEnvironment: Snow
+  spawns:
+  - prefab: Hatchling
+    maxSpawned: 3
+    spawnInterval: 10
+    minAltitude: -1
+    spawnDistance: 10
+    groupRadius: 1
+    maxTilt: 90
+    huntPlayer: true
+    groundOffset: 10
+- name: blobs
+  duration: 120
+  biome: Meadows, Swamp, BlackForest, Plains
+  requiredGlobalKeys: defeated_bonemass
+  startMessage: $event_bonemassarmy_start
+  endMessage: $event_bonemassarmy_end
+  forceMusic: CombatEventL3
+  forceEnvironment: SwampRain
+  spawns:
+  - prefab: Blob
+    biome: Meadows, Swamp, BlackForest, Plains
+    maxSpawned: 5
+    spawnInterval: 2
+    minAltitude: -1
+    spawnDistance: 10
+    groupSizeMax: 3
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: BlobElite
+    maxSpawned: 2
+    spawnInterval: 10
+    minAltitude: -1
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+- name: foresttrolls
+  duration: 80
+  biome: Meadows, Swamp, BlackForest, Plains
+  requiredGlobalKeys: KilledTroll, defeated_gdking
+  startMessage: $event_foresttrolls_start
+  endMessage: $event_foresttrolls_end
+  forceMusic: CombatEventL2
+  spawns:
+  - prefab: Troll
+    maxSpawned: 2
+    spawnInterval: 20
+    minAltitude: 0
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+- name: surtlings
+  duration: 120
+  biome: Meadows, Swamp, BlackForest, Plains
+  requiredGlobalKeys: killed_surtling, defeated_bonemass
+  startMessage: $event_surtlings_start
+  endMessage: $event_surtlings_end
+  forceMusic: CombatEventL3
+  forceEnvironment: Ashrain
+  spawns:
+  - prefab: Surtling
+    maxSpawned: 4
+    spawnInterval: 2
+    minAltitude: 1
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+- name: boss_eikthyr
+  duration: 0
+  nearBaseOnly: false
+  biome: Meadows, Swamp, BlackForest, Plains
+  forceMusic: boss_eikthyr
+  forceEnvironment: Eikthyr
+  spawns: []
+  random: false
+- name: GoldenT1
+  duration: 0
+  nearBaseOnly: false
+  forceMusic: boss_eikthyr
+  forceEnvironment: Eikthyr
+  spawns:
+  - prefab: RRRM_GoldenPiggyT1
+    maxSpawned: 3
+    spawnInterval: 10
+    huntPlayer: true
+  random: false
+- name: GoldenT2
+  duration: 0
+  nearBaseOnly: false
+  forceMusic: boss_gdking
+  forceEnvironment: GDKing
+  spawns:
+  - prefab: RRRM_GoldenPiggyT2
+    maxSpawned: 3
+    spawnInterval: 10
+    huntPlayer: true
+  random: false
+- name: boss_bonemass
+  duration: 0
+  nearBaseOnly: false
+  biome: Meadows, Swamp, BlackForest, Plains
+  forceMusic: boss_bonemass
+  forceEnvironment: Bonemass
+  spawns: []
+  random: false
+- name: boss_moder
+  duration: 0
+  nearBaseOnly: false
+  forceMusic: boss_moder
+  forceEnvironment: Moder
+  spawns: []
+  random: false
+- name: boss_gdking
+  duration: 0
+  nearBaseOnly: false
+  forceMusic: boss_gdking
+  forceEnvironment: GDKing
+  spawns: []
+  random: false
+- name: boss_goblinking
+  duration: 0
+  nearBaseOnly: false
+  forceMusic: boss_goblinking
+  forceEnvironment: GoblinKing
+  spawns: []
+  random: false
+- name: bats
+  duration: 120
+  requiredGlobalKeys: KilledBat, defeated_bonemass
+  startMessage: $event_bats_start
+  endMessage: $event_bats_end
+  forceMusic: CombatEventL3
+  spawns:
+  - prefab: Bat
+    maxSpawned: 10
+    spawnInterval: 10
+    minAltitude: -1000
+    maxAltitude: 5000
+    spawnDistance: 10
+    groupSizeMin: 2
+    groupSizeMax: 4
+    groupRadius: 4
+    maxTilt: 90
+    huntPlayer: true
+    groundOffset: 0
+- name: boss_queen
+  duration: 0
+  nearBaseOnly: false
+  forceMusic: boss_queen
+  forceEnvironment: Queen
+  spawns: []
+  random: false
+- name: army_gjall
+  duration: 90
+  biome: Mistlands
+  requiredGlobalKeys: defeated_goblinking
+  notRequiredGlobalKeys: defeated_queen
+  startMessage: $event_gjallarmy_start
+  endMessage: $event_gjallarmy_end
+  forceMusic: CombatEventL1
+  spawns:
+  - prefab: Gjall
+    biome: Mistlands
+    maxSpawned: 1
+    spawnInterval: 40
+    minAltitude: 0
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: Tick
+    biome: Mistlands
+    maxSpawned: 6
+    spawnInterval: 20
+    maxLevel: 3
+    minAltitude: 0
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+- name: army_seekers
+  duration: 90
+  requiredGlobalKeys: defeated_goblinking
+  notRequiredGlobalKeys: defeated_queen
+  startMessage: $event_seekerarmy_start
+  endMessage: $event_seekerarmy_end
+  forceMusic: CombatEventL1
+  spawns:
+  - prefab: Seeker
+    maxSpawned: 4
+    spawnInterval: 35
+    minAltitude: 0
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: SeekerBrood
+    maxSpawned: 5
+    spawnInterval: 20
+    minAltitude: 0
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: SeekerBrute
+    maxSpawned: 1
+    spawnInterval: 40
+    minAltitude: 0
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true

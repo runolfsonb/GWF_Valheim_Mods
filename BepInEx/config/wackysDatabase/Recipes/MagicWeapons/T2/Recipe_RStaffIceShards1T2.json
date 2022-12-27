@@ -1,0 +1,15 @@
+{
+    "name": "RStaffIceShards1T2",
+    "clone": true,
+    "clonePrefabName": "StaffIceShards1T2",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "ReagentEpic:5:5:True",
+	    "DustLegendary:2:1:True",
+        "RoundLog:20:10:True",
+        "GreydwarfEye:20:5:True"
+    ]
+}

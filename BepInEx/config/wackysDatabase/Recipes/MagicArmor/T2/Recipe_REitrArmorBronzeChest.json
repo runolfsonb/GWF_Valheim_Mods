@@ -1,0 +1,14 @@
+{
+    "name": "REitrArmorBronzeChest",
+    "clone": true,
+    "clonePrefabName": "EitrArmorBronzeChest",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "ReagentEpic:5:5:True",
+		"DustLegendary:1:1:True",
+        "ArmorBronzeChest:1:0:True"
+    ]
+}

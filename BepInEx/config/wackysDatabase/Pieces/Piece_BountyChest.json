@@ -1,0 +1,18 @@
+{
+    "name": "BountyChest",
+    "m_name": "Haldor's Magical Chest",
+    "m_description": "Contains various magical trinkets",
+    "clone": true,
+    "clonePrefabName": "piece_chest_private",
+    "cloneMaterial": "",
+    "craftingStation": "",
+    "piecehammer": "Hammer",
+    "piecehammerCategory": "Misc",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "adminonly": false,
+    "reqs": [
+        "TraderBark:1:0:False"
+    ]
+}

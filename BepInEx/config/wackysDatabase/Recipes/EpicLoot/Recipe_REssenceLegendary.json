@@ -1,0 +1,11 @@
+{
+    "name": "REssenceLegendary",
+    "clone": true,
+    "clonePrefabName": "EssenceLegendary",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "EssenceMagic:10:0:False"    ]
+}
