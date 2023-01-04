@@ -1,0 +1,277 @@
+[Message:   BepInEx] BepInEx 5.4.19.0 - valheim (12/6/2022 5:15:49 PM)
+[Info   :   BepInEx] Running under Unity v2020.3.33.9525882
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.19.0]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 3 plugins to load
+[Info   :   BepInEx] Loading [Display BepInEx Info In-Game 2.0.0]
+[Info   :   BepInEx] Loading [Extended Item Data Framework 1.0.10]
+[Info   :   BepInEx] Loading [Epic Loot 0.9.3]
+[Info   : Unity Log] 01/03/2023 19:27:49: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 01/03/2023 19:27:49: Loaded localization CSV:localization_extra language:English
+
+[Info   : Unity Log] 01/03/2023 19:27:49: Loaded localization CSV:localization language:English
+
+[Info   : Unity Log] 01/03/2023 19:27:49: Loaded localization CSV:localization_extra language:English
+
+[Message:   BepInEx] Chainloader startup complete
+[Info   : Unity Log] 01/03/2023 19:27:52: Starting to load scene:start
+
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
+[Info   : Unity Log] 01/03/2023 19:27:53: Using environment steamid 892970
+
+[Info   : Unity Log] 01/03/2023 19:27:53: Using steam APPID:892970
+
+[Info   : Unity Log] 01/03/2023 19:27:53: Authentication:k_ESteamNetworkingAvailability_Attempting
+
+[Info   : Unity Log] 01/03/2023 19:27:53: Steam initialized, persona:Lycathal
+
+[Info   : Unity Log] 01/03/2023 19:27:53: PlayFab custom ID set to "Steam_76561198024485427"
+
+[Info   : Unity Log] 01/03/2023 19:27:53: Using default prefs
+
+[Info   : Unity Log] 01/03/2023 19:27:53: Valheim version:0.212.9
+
+[Info   : Unity Log] 01/03/2023 19:27:54: Worldgenerator version setup:2
+
+[Info   : Unity Log] 01/03/2023 19:27:54: Render threading mode:MultiThreaded
+
+[Warning: Unity Log] 01/03/2023 19:27:54: Missing audio clip in music respawn
+
+[Info   : Unity Log] 01/03/2023 19:27:54: Checking for installed DLCs
+
+[Info   : Unity Log] 01/03/2023 19:27:54: DLC:beta installed:False
+
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_LeatherBelt
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_SilverRing
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_GoldRubyRing
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_ShardRareUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_ShardEpicUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_ShardLegendaryUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_DustRareUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_DustEpicUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_DustLegendaryUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_ReagentRareUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_ReagentEpicUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_ReagentLegendaryUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_EssenceRareUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_EssenceEpicUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_EssenceLegendaryUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_RunestoneRareUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_RunestoneEpicUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_RunestoneLegendaryUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_MagicShardToDust_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_MagicShardToEssence_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_MagicShardToReagent_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_RareShardToDust_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_RareShardToEssence_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_RareShardToReagent_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_EpicShardToDust_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_EpicShardToEssence_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_EpicShardToReagent_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_LegendaryShardToDust_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_LegendaryShardToEssence_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_LegendaryShardToReagent_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_BoneSkeletonTrophy
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_EyeGreydwarfTrophy
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_AntlerDeerTrophy
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_HideTrollTrophy
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_CoreSurtlingTrophy
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_FreezeGlandDrakeTrophy
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_DragonTearRunestone
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_YagluthThingRunestone
+[Info   : Unity Log] 01/03/2023 19:27:54: Ticket is System.Byte[] of length 369
+
+[Info   : Unity Log] 01/03/2023 19:27:54: Session auth respons callback
+
+[Info   : Unity Log] 01/03/2023 19:27:54: Starting music menu
+
+[Info   : Unity Log] 01/03/2023 19:27:54: UI Group status changed Menu = True
+
+[Info   : Unity Log] 01/03/2023 19:27:55: PlayFab logged in as "Steam_76561198024485427"
+
+[Info   : Unity Log] 01/03/2023 19:27:55: PlayFab local entity ID is 8DF92BF33007FE0A
+
+[Info   : Unity Log] 01/03/2023 19:27:56: UI Group status changed Menu = True
+
+[Info   : Unity Log] 01/03/2023 19:28:02: FOund selected Start game
+
+[Info   : Unity Log] 01/03/2023 19:28:02: show character selection
+
+[Info   : Unity Log] 01/03/2023 19:28:03: OnCharacterStart
+
+[Info   : Unity Log] 01/03/2023 19:28:06: Loading main scene
+
+[Info   : Unity Log] 01/03/2023 19:28:06: Steam initialized, persona:Lycathal
+
+[Info   : Unity Log] 01/03/2023 19:28:06: PlayFab custom ID set to "Steam_76561198024485427"
+
+[Info   : Unity Log] 01/03/2023 19:28:06: Using default prefs
+
+[Info   : Unity Log] 01/03/2023 19:28:06: Loading player profile tesesest
+
+[Info   : Unity Log] 01/03/2023 19:28:06: isModded: True
+
+[Info   : Unity Log] 01/03/2023 19:28:06: Zonesystem Awake 660
+
+[Info   : Unity Log] 01/03/2023 19:28:06: DungeonDB Awake 660
+
+[Info   : Unity Log] 01/03/2023 19:28:06: Steam initialized, persona:Lycathal
+
+[Info   : Unity Log] 01/03/2023 19:28:06: Worldgenerator version setup:2
+
+[Info   : Unity Log] Registered 'randyknapp.mods.epicloot ConfigSync' RPC - waiting for incoming connections
+[Info   : Unity Log] 01/03/2023 19:28:07: Audioman already exist, destroying self
+
+[Info   : Unity Log] 01/03/2023 19:28:07: Checking for installed DLCs
+
+[Info   : Unity Log] 01/03/2023 19:28:07: DLC:beta installed:False
+
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_LeatherBelt
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_SilverRing
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_GoldRubyRing
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_ShardRareUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_ShardEpicUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_ShardLegendaryUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_DustRareUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_DustEpicUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_DustLegendaryUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_ReagentRareUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_ReagentEpicUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_ReagentLegendaryUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_EssenceRareUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_EssenceEpicUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_EssenceLegendaryUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_RunestoneRareUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_RunestoneEpicUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_RunestoneLegendaryUpgrade
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_MagicShardToDust_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_MagicShardToEssence_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_MagicShardToReagent_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_RareShardToDust_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_RareShardToEssence_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_RareShardToReagent_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_EpicShardToDust_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_EpicShardToEssence_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_EpicShardToReagent_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_LegendaryShardToDust_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_LegendaryShardToEssence_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_LegendaryShardToReagent_Conversion
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_BoneSkeletonTrophy
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_EyeGreydwarfTrophy
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_AntlerDeerTrophy
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_HideTrollTrophy
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_CoreSurtlingTrophy
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_FreezeGlandDrakeTrophy
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_DragonTearRunestone
+[Info   : Unity Log] [PrefabCreator] Added recipe: Recipe_YagluthThingRunestone
+[Info   : Unity Log] 01/03/2023 19:28:13: Zonesystem Start 660
+
+[Info   : Unity Log] 01/03/2023 19:28:14: Added 3 locations, 0 vegetations, 0 environments, 0 biome env-setups, 0 clutter  from locations_cp1
+
+[Info   : Unity Log] 01/03/2023 19:28:14: Added 1 locations, 0 vegetations, 1 environments, 0 biome env-setups, 0 clutter  from locations_mountaincaves
+
+[Info   : Unity Log] 01/03/2023 19:28:14: Added 27 locations, 25 vegetations, 5 environments, 1 biome env-setups, 3 clutter  from locations_mistlands
+
+[Info   : Unity Log] 01/03/2023 19:28:14: DungeonDB Start 660
+
+[Info   : Unity Log] 01/03/2023 19:28:14: ZRpc timeout set to 30s 
+
+[Info   : Unity Log] 01/03/2023 19:28:14: Load world: TestLand (Testland)
+
+[Info   : Unity Log] 01/03/2023 19:28:14: Loading 34463 zdos , my id 566362650 data version:29
+
+[Info   : Unity Log] 01/03/2023 19:28:14: Loaded 1489 dead zdos
+
+[Info   : Unity Log] 01/03/2023 19:28:14: Removed 0 OLD generated ZDOS
+
+[Info   : Unity Log] 01/03/2023 19:28:14: Loaded 10132 locations
+
+[Info   : Unity Log] 01/03/2023 19:28:14: Starting respawn
+
+[Info   : Unity Log] 01/03/2023 19:28:14: Session auth respons callback
+
+[Info   : Unity Log] 01/03/2023 19:28:20: Unpacking compressed mapdata 8386
+
+[Info   : Unity Log] 01/03/2023 19:28:20: tip:$loadscreen_tip22
+
+[Info   : Unity Log] 01/03/2023 19:28:24: Destroyed invalid predab ZDO:-60787451:36020
+
+[Info   : Unity Log] 01/03/2023 19:28:24: Destroyed invalid predab ZDO:-773877123:36043
+
+[Info   : Unity Log] 01/03/2023 19:28:24: Destroyed invalid predab ZDO:-773877123:36049
+
+[Info   : Unity Log] 01/03/2023 19:28:24: Destroyed invalid predab ZDO:-773877123:36045
+
+[Info   : Unity Log] 01/03/2023 19:28:24: Destroyed invalid predab ZDO:-773877123:36048
+
+[Info   : Unity Log] 01/03/2023 19:28:24: Destroyed invalid predab ZDO:-773877123:36044
+
+[Info   : Unity Log] 01/03/2023 19:28:24: Destroyed invalid predab ZDO:-773877123:36046
+
+[Info   : Unity Log] 01/03/2023 19:28:24: Destroyed invalid predab ZDO:-773877123:36047
+
+[Info   : Unity Log] 01/03/2023 19:28:28: Spawned after 8.019994
+
+[Info   : Unity Log] 01/03/2023 19:28:29: Minimap: Adding unique location (1.5, 35.2, 6.8)
+
+[Info   : Unity Log] 01/03/2023 19:28:36: Setting selected recipe 0
+
+[Info   : Unity Log] 01/03/2023 19:28:36: UI Group status changed root = True
+
+[Info   : Unity Log] 01/03/2023 19:28:36: UI Group status changed Player = True
+
+[Info   : Unity Log] 01/03/2023 19:28:36: Starting music home
+
+[Info   : Unity Log] 01/03/2023 19:28:36: Resumed music home at 0
+
+[Info   : Unity Log] 01/03/2023 19:28:40: Stopped music home at 187219
+
+[Info   : Unity Log] 01/03/2023 19:28:52: UI Group status changed MenuRoot = False
+
+[Info   : Unity Log] 01/03/2023 19:28:53: Game - OnApplicationQuit
+
+[Info   : Unity Log] 01/03/2023 19:28:53: Shuting down
+
+[Info   : Unity Log] 01/03/2023 19:28:53: Uncompressed size 8388617
+
+[Info   : Unity Log] 01/03/2023 19:28:53: Compressed size 8386
+
+[Info   : Unity Log] 01/03/2023 19:28:53: Cloud Save: 20644 bytes. /characters/tesesest.fch.new
+
+[Info   : Unity Log] 01/03/2023 19:28:53: Steam writing file chunks 1 / 1, (20644 bytes)
+
+[Info   : Unity Log] 01/03/2023 19:28:53: Steam Cloud Move: 20656 bytes. /characters/tesesest.fch -> /characters/tesesest.fch.old
+
+[Info   : Unity Log] 01/03/2023 19:28:53: Steam writing file chunks 1 / 1, (20656 bytes)
+
+[Info   : Unity Log] 01/03/2023 19:28:53: Steam Cloud Move: 20644 bytes. /characters/tesesest.fch.new -> /characters/tesesest.fch
+
+[Info   : Unity Log] 01/03/2023 19:28:53: Steam writing file chunks 1 / 1, (20644 bytes)
+
+[Info   : Unity Log] 01/03/2023 19:28:53: Considering autobackup. World time: 30.96, short time: 7200, long time: 43200, backup count: 4
+
+[Info   : Unity Log] 01/03/2023 19:28:53: Skipping backup. World session not long enough.
+
+[Info   : Unity Log] 01/03/2023 19:28:53: ZNet Shutdown
+
+[Info   : Unity Log] 01/03/2023 19:28:53: clone 24
+
+[Info   : Unity Log] 01/03/2023 19:28:54: Sending disconnect msg
+
+[Warning: Unity Log] 01/03/2023 19:28:56: Local player destroyed
+
+[Info   : Unity Log] 01/03/2023 19:28:56: FOund selected Button_yes
+
+[Info   : Unity Log] 01/03/2023 19:28:56: ZNet OnDestroy
+
+[Info   : Unity Log] 01/03/2023 19:28:56: Net scene destroyed
+
