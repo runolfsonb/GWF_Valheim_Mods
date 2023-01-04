@@ -1,7 +1,0 @@
-﻿PrintComment: ThisGoesHere is Updating & Replacing EpicLoot Configuration
-CopyFolder:
-- From: config\EV\RandyKnapp-EpicLoot/
-  To: plugins/
-CopyFile:
-- From: config\EV\Menthus.bepinex.plugins.BetterTrader.cfg
-  To: config/Menthus.bepinex.plugins.BetterTrader.cfg
